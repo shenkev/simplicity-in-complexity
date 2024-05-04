@@ -1,0 +1,2 @@
+# Saraee et al. 2020 Unsupervised Transfer Learning Baseline
+This is our reproduction of the unsupervised UAE method from Saraee et al. 2020 (https://www.sciencedirect.com/science/article/pii/S1077314220300333).  We use the VGG architecture pretrained on IMAGENET1K_V1. We use the intermediate layer with the best correlation to ground truth complexity (reproducing the correlations reported in the paper on the Savoias dataset).

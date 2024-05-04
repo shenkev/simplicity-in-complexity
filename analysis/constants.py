@@ -1,0 +1,1 @@
+DATASET_NAMES = ['rsivl', 'visc', 'sav_int', 'sav_obj', 'sav_sce', 'sav_art', 'sav_sup', 'ic9600']
