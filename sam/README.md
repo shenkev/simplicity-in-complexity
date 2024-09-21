@@ -2,7 +2,7 @@
 
 ## Setup
 
-Create a new Anaconda enviromment.
+Create a new Anaconda environment.
 
 ```https://github.com/shenkev/fc-clip.git
 conda create -n sam python=3.9
@@ -21,8 +21,10 @@ cd segment-anything; pip install -e .
 ```
 
 ```
-pip install opencv-python matplotlib jupyter numpy
+pip install opencv-python matplotlib jupyter numpy pycocotools
 ```
+
+Download the [model weights](https://huggingface.co/spaces/abhishek/StableSAM/blob/main/sam_vit_h_4b8939.pth) and save it in the `checkpoints` folder.
 
 ## Running inference
 
