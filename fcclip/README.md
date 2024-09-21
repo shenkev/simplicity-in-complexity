@@ -23,8 +23,9 @@ Run inference using the `inference.py` file.
 git clone https://github.com/facebookresearch/detectron2.git
 # Add the pyproject.toml
 python -m pip install -e detectron2
-Please add the following `pyproject.toml` file to the root folder of `detectron2`:
 ```
+Please add the following `pyproject.toml` file to the root folder of `detectron2`:
+
 ```toml
 [build-system]
 requires = ["setuptools", "torch"]
